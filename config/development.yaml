@@ -1,0 +1,21 @@
+env:
+  mode: debug
+
+server:
+  port: 8003
+  grpc_port: 5003
+  locale: 'en'
+  timezone: UTC
+  secret_key: 249570c35fd39ad16084f241b276f1c129fe4b610022f7a352d445ce97898a45
+  secret_token: s3cr3tt0k3n
+
+database:
+  host: cluster0.fmkkfsr.mongodb.net
+  port: 80
+  username: anhhuy
+  password: "%40nhHuy1010"
+  db_name: order
+  ssl: true
+
+grpc:
+

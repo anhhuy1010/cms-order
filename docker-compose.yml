@@ -1,0 +1,13 @@
+version: "2"
+services:
+  app:
+    container_name: cms-order
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile-dev
+    volumes:
+      - ./:/go/src/github.com/anhhuy1010/cms-order
+    ports:
+      - 8003:8003
+      - 5003:5003
+
